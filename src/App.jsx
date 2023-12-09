@@ -1,10 +1,10 @@
 import React from "react";
-import ExcuseGenerator from "./ExcuseGenerator/ExcuseGenerator";
+import SmallProjects from "./Components/SmallProjects";
 
 const App = () => {
   return (
     <div>
-      <ExcuseGenerator />
+      <SmallProjects />
     </div>
   );
 };

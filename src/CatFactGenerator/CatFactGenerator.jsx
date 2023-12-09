@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Axios from "axios";
-import { useState, useEffect } from "react";
 
 const CatFactGenerator = () => {
   const [catFact, setCatFact] = useState("");
+
   const fetchCatFact = () => {
     Axios.get("https://catfact.ninja/fact").then((res) => {
       setCatFact(res.data.fact);
