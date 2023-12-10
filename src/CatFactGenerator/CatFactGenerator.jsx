@@ -10,10 +10,6 @@ const CatFactGenerator = () => {
     });
   };
 
-  useEffect(() => {
-    fetchCatFact();
-  }, []);
-
   return (
     <div>
       <div>
