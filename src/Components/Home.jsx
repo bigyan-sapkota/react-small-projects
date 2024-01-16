@@ -6,7 +6,7 @@ import { cat, age, excuse, todo } from "../assets/image";
 const Home = () => {
   return (
     <div>
-      <h1 className="">My Projects</h1>
+      <h1 className="font-bold text-lg md:text-2xl">My Projects</h1>
       <br />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
         <Link to="/catfact" className="link">

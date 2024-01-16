@@ -10,9 +10,9 @@ const ProjectBox = (props) => {
           </p>
         </div>
         <div>
-          <img src={props.image} alt="Cat Image" />
+          <img src={props.image} />
         </div>
-        <div className="px-1 py-2">
+        <div className="px-3 py-2">
           <p className="font-normal overflow-ellipsis line-clamp-2">
             {props.description}
           </p>
