@@ -33,3 +33,29 @@
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+.form-input {
+  background: transparent;
+  padding-inline: 15px;
+  inset: none;
+}
+
+.input-button {
+  width: fit-content;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(209, 209, 209);
+  font-size: 20px;
+}
+
+.input-button button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.age-paragraph {
+  margin-top: 20px;
+  font-size: 20px;
+}

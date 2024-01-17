@@ -12,18 +12,30 @@ const AgePredictor = () => {
   };
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Enter Your Name..."
-        value={name}
-        onChange={(e) => {
-          setName(e.target.value);
-        }}
-      />
-      <button onClick={fetchData}>Predict Age</button>
-      <h1>Predicted Age : {predictedAge?.age}</h1>
-      <h1>Name : {predictedAge?.name}</h1>
-      <h1>Count : {predictedAge?.count}</h1>
+      <h1 className="h1">Age Predictor</h1>
+
+      <div className="input-button">
+        <input
+          type="text"
+          placeholder="Enter Your Name..."
+          value={name}
+          onChange={(e) => {
+            setName(e.target.value);
+          }}
+          className="form-input"
+        />
+        <button onClick={fetchData} className="btn">
+          Predict Age
+        </button>
+      </div>
+
+      <p className="age-paragraph">Predicted Age : {predictedAge?.age}</p>
+      <p className="age-paragraph">Name : {predictedAge?.name}</p>
+      <hr className="bg-black mt-4" />
+      <p className="mt-5 text-[18px]">
+        <span className="font-bold text-blue-600">Note: </span>Your name will
+        only be shown if it is in the database.
+      </p>
     </div>
   );
 };
