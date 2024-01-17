@@ -40,6 +40,10 @@
   inset: none;
 }
 
+.form-input:focus {
+  outline: none;
+}
+
 .form-input::placeholder {
   color: black;
 }
