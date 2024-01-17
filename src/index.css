@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding-inline: 20px;
+  padding-block: 10px;
+  color: white;
+  font: 500;
+  background: rgb(101, 10, 239);
+  border-radius: 20px;
+}
+
+.cat-paragraph {
+  padding-inline: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  height: 100px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}

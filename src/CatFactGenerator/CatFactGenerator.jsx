@@ -13,8 +13,11 @@ const CatFactGenerator = () => {
   return (
     <div>
       <div>
-        <p>{catFact}</p>
-        <button onClick={fetchCatFact}>Get Fact</button>
+        <h1 className="h1">Cat Fact Generator</h1>
+        <p className="cat-paragraph">{catFact}</p>
+        <button onClick={fetchCatFact} className="btn">
+          Get Fact
+        </button>
       </div>
     </div>
   );
