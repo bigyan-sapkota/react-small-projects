@@ -17,14 +17,19 @@
   border-radius: 20px;
 }
 
+.btn:hover {
+  background-color: rgb(105, 11, 240);
+}
+
 .cat-paragraph {
-  padding-inline: 30px;
+  padding: 30px;
+  font-size: 20px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #e0e0e0;
-  height: 100px;
+  height: fit-content;
   font-weight: 600;
   margin-bottom: 20px;
 }
