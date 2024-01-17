@@ -13,7 +13,6 @@ const AgePredictor = () => {
   return (
     <div>
       <h1 className="h1">Age Predictor</h1>
-
       <div className="input-button">
         <input
           type="text"
