@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectBox from "../Containers/ProjectBox";
 import { Link } from "react-router-dom";
-import { cat, age, excuse, todo } from "../assets/image";
+import { cat, age, excuse, todo, cart } from "../assets/image";
 
 const Home = () => {
   return (
@@ -40,6 +40,14 @@ const Home = () => {
             description="Your TodoList with different features like creating a task, deleting a task"
           />
         </Link>
+
+        <a href="https://cart-bigyan.netlify.app/" target="_blank">
+          <ProjectBox
+            title="Todo List"
+            image={cart}
+            description="Effortlessly manage your cart by adding or removing items, ensuring a smooth and convenient shopping process"
+          />
+        </a>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import React from "react";
 const ProjectBox = (props) => {
   return (
     <div>
+      <a href="https://cart-bigyan.netlify.app/" target="_blank"></a>
       <div className="shadow-lg w-64 rounded-xl border border-neutral-10 hover:scale-[1.01] cursor-pointer mb-5">
         <div className="rounded-tl-lg rounded-tr-lg bg-blue-500">
           <p className="font-medium text-white text-center py-2">
