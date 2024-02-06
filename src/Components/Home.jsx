@@ -43,7 +43,7 @@ const Home = () => {
 
         <a href="https://cart-bigyan.netlify.app/" target="_blank">
           <ProjectBox
-            title="Todo List"
+            title="Redux Cart"
             image={cart}
             description="Effortlessly manage your cart by adding or removing items, ensuring a smooth and convenient shopping process"
           />
